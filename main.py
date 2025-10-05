@@ -90,7 +90,7 @@ substances = [
     "prix": "≈ 80 €/g",
     "dangerosite": 5,
     "addictif": 5,
-    "poster": "https://example.com/meth.jpg"
+    "poster": "https://www.jeunessesansdroguecanada.org/wp-content/uploads/2023/04/meth-featured.jpeg"
 },
 {
     "id": "D008",
