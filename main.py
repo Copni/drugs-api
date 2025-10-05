@@ -152,7 +152,118 @@ DRUGS: List[dict] = [
         "prix": "Souvent entre 8 et 20 €/g en ligne pour certains NPS (estimation).",
         "dangerosite": 5,
         "addictif": 4
-    }
+    },
+  {
+  id: 11,
+  nom: "GHB / GBL",
+  type: "Dépresseur du SNC (solvant/precursor)",
+  molecule: "Gamma-hydroxybutyrate (GHB) ; GBL (prodrug)",
+  risque: "Dépression respiratoire, perte de connaissance, amnésie, interactions dangereuses avec alcool/benzodiazépines, risque d'intoxication et d'étouffement.",
+  effet: "Sédation, euphorie, désinhibition, relaxation musculaire, baisse des inhibitions.",
+  prix: "Variable ; quelques euros la dose en milieu illicite (estimation).",
+  dangerosite: 5,
+  addictif: 3
+},
+{
+  id: 12,
+  nom: "Poppers (nitrites d'alkyle)",
+  type: "Vasodilatateur inhalé (produit récréatif)",
+  molecule: "Nitrite d'amyle / nitrite de butyle / nitrite d'isopropyle",
+  risque: "Hypotension, céphalées, vertiges, interaction dangereuse avec médicaments à base de nitrates, brûlures/irritation des muqueuses, perte de connaissance.",
+  effet: "Brève sensation d'euphorie, relaxation des muscles lisses (souvent utilisés sexuellement), sensation de chaleur/vertige.",
+  prix: "Peu cher, quelques euros la fiole (estimation).",
+  dangerosite: 3,
+  addictif: 2
+},
+{
+  id: 13,
+  nom: "DMT / Ayahuasca",
+  type: "Psychédélique puissant (tryptamine)",
+  molecule: "Diméthyltryptamine (DMT) ; en décoction (ayahuasca) combiné avec inhibiteurs MAO",
+  risque: "Expériences intenses pouvant déclencher anxiété/psychose chez sujets vulnérables, risques liés à interaction médicamenteuse (MAOi), nausées/vomissements (ayahuasca).",
+  effet: "Altérations sensorielles et perceptuelles très intenses, expériences mystiques, distorsion temporelle.",
+  prix: "Variable selon forme et circuit (estimation difficile).",
+  dangerosite: 4,
+  addictif: 1
+},
+{
+  id: 14,
+  nom: "Psilocybine (champignons)",
+  type: "Psychédélique (tryptamine)",
+  molecule: "Psilocybine → psilocine (forme active)",
+  risque: "Bad trips, anxiété aiguë, risques psychologiques chez personnes vulnérables, risque d'ingestion accidentelle de champignons toxiques si cueillis.",
+  effet: "Altération de la perception, distorsion visuelle et émotionnelle, introspection, variations d'humeur.",
+  prix: "Souvent peu cher ; quelques euros par dose selon pays/approvisionnement.",
+  dangerosite: 3,
+  addictif: 1
+},
+{
+  id: 15,
+  nom: "Barbituriques (usage illicite)",
+  type: "Sédatif / hypnotique (médicaments détournés)",
+  molecule: "Phénobarbital, thiopental, amobarbital, etc.",
+  risque: "Dépression respiratoire sévère, surdosage facile, tolérance et dépendance physique marquée, sevrage dangereux (convulsions).",
+  effet: "Sédation profonde, somnolence, amnésie partielle, anxiolyse.",
+  prix: "Rare en marché illicite ; variable.",
+  dangerosite: 5,
+  addictif: 5
+},
+{
+  id: 16,
+  nom: "Fentanyl et analogues",
+  type: "Opioïde synthétique très puissant",
+  molecule: "Fentanyl, carfentanil, et autres analogues opioïdes synthétiques",
+  risque: "Très forte probabilité de surdose mortelle (dépression respiratoire), hautement toxique en petites quantités, contamination de lots d'autres drogues.",
+  effet: "Analgesie intense, euphoriant, sédation profonde, respiration ralentie.",
+  prix: "Très variable ; souvent vendu coupé dans d'autres opioïdes (estimation fragile).",
+  dangerosite: 5,
+  addictif: 5
+},
+{
+  id: 17,
+  nom: "Kratom (Mitragyna speciosa)",
+  type: "Plante à effets opioïdes/stimulants selon dose",
+  molecule: "Mitragynine, 7-hydroxymitragynine",
+  risque: "Nausées, constipation, dépendance, symptômes de sevrage, interactions médicamenteuses, risques de surdosage en cas de mélanges.",
+  effet: "Faible stimulation à faible dose ; effets sédatifs/analgésiques à doses élevées, amélioration de l'humeur possible.",
+  prix: "Souvent vendu en ligne ; prix variable (thé/sachets).",
+  dangerosite: 3,
+  addictif: 3
+},
+{
+  id: 18,
+  nom: "Inhalants (solvants, colle, spray)",
+  type: "Solvants volatils inhalés",
+  molecule: "Toluène, butane, éther, colles et solvants divers",
+  risque: "Dommages neurologiques permanents, arrêt cardiorespiratoire soudain, asphyxie, lésions hépatiques/rénales, décès même au premier usage dans certains cas.",
+  effet: "Euphorie brève, étourdissements, désorientation, perte de coordination.",
+  prix: "Très bon marché (produits ménagers détournés).",
+  dangerosite: 5,
+  addictif: 4
+},
+{
+  id: 19,
+  nom: "Sirop à la codéine (détournement)",
+  type: "Opioïde (médicament détourné)",
+  molecule: "Codéine (souvent combinée avec prométhazine ou paracétamol)",
+  risque: "Dépression respiratoire, risque de surdosage, toxicité hépatique si combiné au paracétamol, dépendance physique et psychique.",
+  effet: "Sédation, analgésie légère, euphorie modérée selon dose.",
+  prix: "Variable selon marché illicite ; parfois utilisé dans des préparations maison.",
+  dangerosite: 4,
+  addictif: 4
+},
+{
+  id: 20,
+  nom: "Cathinones (\"bath salts\")",
+  type: "Stimulants de synthèse (cathinones)",
+  molecule: "Mephedrone, MDPV, alpha-PVP et autres cathinones synthétiques",
+  risque: "Hyperstimulation, psychose, agitation sévère, hyperthermie, troubles cardiaques, overdoses et comportements dangereux.",
+  effet: "Euphorie, augmentation d'énergie, empathie variable, stimulation psychomotrice intense.",
+  prix: "Variable ; souvent vendu comme NPS en ligne (estimation).",
+  dangerosite: 5,
+  addictif: 4
+}
+
 ]
 
 # --- Security: middleware to protect all paths (including docs)
