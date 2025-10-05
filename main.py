@@ -45,7 +45,7 @@ class Drug(BaseModel):
 DRUGS: List[dict] = [
     {
         "id": 1,
-        "nom": "Cannabis (résine, herbe, huile, CBD)",
+        "nom": "Cannabis",
         "type": "Drogue psychotrope / stupéfiant (plante dérivée du chanvre)",
         "molecule": "Principalement THC (Δ⁹-tétrahydrocannabinol) ; CBD (cannabidiol) comme composant non psychotrope dans certaines formes",
         "risque": "Troubles cognitifs (mémoire, attention), troubles psychiatriques (dépression, psychose), dépendance psychique, risques pulmonaires liés à la combustion, effets sur le développement cérébral chez les jeunes, risques liés aux produits coupés/toxiques.",
@@ -56,7 +56,7 @@ DRUGS: List[dict] = [
     },
     {
         "id": 2,
-        "nom": "Cocaïne / Crack",
+        "nom": "Cocaïne",
         "type": "Psychoactif stimulant (stupéfiant illicite)",
         "molecule": "Chlorhydrate de cocaïne (poudre) ; Crack = forme “free-base” dérivée (bicarbonate/ammoniac) pour fumer",
         "risque": "Risques cardiovasculaires (AVC, infarctus), neurologiques (convulsions), complications pulmonaires (crack), lésions nasales (sniff), infections (usage injectable), troubles psychiatriques (paranoïa, hallucinations).",
@@ -67,7 +67,7 @@ DRUGS: List[dict] = [
     },
     {
         "id": 3,
-        "nom": "Héroïne / opiacés",
+        "nom": "Héroïne",
         "type": "Opioïde / stupéfiant",
         "molecule": "Diacétylmorphine (héroïne) ; dérivés d’opiacés (morphine, codéine, etc.)",
         "risque": "Dépression respiratoire (risque de surdose), dépendance physique et psychique, constipations, infections (usage injectable), risques de contamination (VIH, VHC, VHB), tolérance et sevrage sévère.",
@@ -78,7 +78,7 @@ DRUGS: List[dict] = [
     },
     {
         "id": 4,
-        "nom": "MDMA / Ecstasy",
+        "nom": "MDMA",
         "type": "Entactogène / stimulant empathogène",
         "molecule": "3,4-méthylènedioxyméthamphétamine (MDMA)",
         "risque": "Hyperthermie, déshydratation, déséquilibre électrolytique, crises cardiaques, convulsions, troubles psychiatriques (anxiété, dépression), risques de neurotoxicité, confusion/malaises.",
@@ -122,7 +122,7 @@ DRUGS: List[dict] = [
     },
     {
         "id": 8,
-        "nom": "Benzodiazépines (usage non médical)",
+        "nom": "Benzodiazépines",
         "type": "Sédatif / anxiolytique (médicaments détournés)",
         "molecule": "Diazépam, alprazolam, lorazépam, etc. (dérivés benzodiazépinés)",
         "risque": "Somnolence, confusion, dépression respiratoire en combinaison, tolérance, dépendance physique, sevrage sévère (convulsions), surdosage si mélange alcool ou opioïdes.",
@@ -144,7 +144,7 @@ DRUGS: List[dict] = [
     },
     {
         "id": 10,
-        "nom": "Nouvelles drogues de synthèse (NPS)",
+        "nom": "NPS",
         "type": "Substances psychoactives de synthèse (designer drugs, analogues) non encore réglementées",
         "molecule": "Très variable : cannabinoïdes de synthèse, cathinones de synthèse, opioïdes de synthèse, phénéthylamines de synthèse, etc.",
         "risque": "Grande variabilité, surdosage, effets imprévisibles, décès signalés, intoxications aiguës, confusion, convulsions, risques neurologiques / cardiovasculaires, dépendance possible.",
