@@ -24,7 +24,7 @@ substances = [
     {
         "id": "D001",
         "nom": "Cannabis (résine, herbe, huile, CBD)",
-        "type": "Psychotrope / stupéfiant",
+        "type": "Psychotrope",
         "molecule": "THC, CBD",
         "effet": "Euphorie, relaxation, altération de la perception.",
         "risque": "Troubles cognitifs, dépendance psychique, effets pulmonaires.",
